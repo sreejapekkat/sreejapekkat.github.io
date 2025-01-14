@@ -1,0 +1,863 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dr. Sreeja Pekkat Home</title>
+
+
+<link rel="stylesheet" href="../../scripts/style.css" type="text/css">
+<link rel="icon" href="http://www.iitg.ac.in/res/logo-top.gif" />
+
+<title>Dr. Sreeja P. Home</title>
+<style type="text/css">
+<!--
+.sidebar a:link{
+	text-decoration:none;
+	color: #333333;
+	font-weight: bold;
+}
+.sidebar a, .tblink a:visited {
+	color: #8B8B8B;
+	font-weight: bold;
+}
+.sidebar a:hover,a:active {
+	color: #000000;
+}
+body {
+	margin-top: 2px;
+	background-color: #F4F0E1;
+}
+.style3 {
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.sidebar{
+	font-family: Verdana;
+	font-size: 10pt;
+}
+-->
+</style>
+<style type="text/css">
+
+#wrapper{
+width: 100%;
+margin: 0 auto;
+}
+.box{
+	background: #fff;
+	font-family: Verdana;
+	font-size: 10pt;
+}
+
+.boxholder{
+	clear: both;
+	background-color: #FFFFFF;
+}
+.tblink {
+	text-decoration: none;
+	color: #000000;
+    }
+ 
+.tblink a:link{
+	text-decoration:none;
+	color: #333333;
+}
+.tblink a, .tblink a:visited {
+	color: #333333;
+}
+.tblink a:hover,a:active {
+	color: #000000;
+}
+
+
+
+
+
+
+
+
+.tab{
+	float: left;
+	height: auto;
+	width: auto;
+	margin: 0 1px 0 0;
+	text-align: center;
+	background-color: #F4F0E1;
+	min-width: 90px;
+	color: #FFFFFF;
+	padding: 0 6px 0 7px;
+}
+.tabtxt{
+	margin: 0;
+	color: #fff;
+	font-size: 11px;
+	font-weight: bold;
+	padding: 4px 0 4px 0;
+	font-family: Verdana;
+}
+.style29 {
+	font-size: 12pt;
+	font-weight: bold;
+	color: #444;
+	font-family: Verdana;
+}
+#content { padding-left: 3px;  }
+.style2 {color: #FFFFFF}
+ table.MsoNormalTable
+	{mso-style-parent:"";
+	text-align:justify;
+	text-indent:.25in;
+	line-height:150%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	}
+</style>
+<script type="text/javascript" src="../../scripts/prototype.lite.js"></script>
+<script type="text/javascript" src="../../scripts/moo.fx.js"></script>
+<script type="text/javascript" src="../../scripts/moo.fx.pack.js"></script>
+<script type="text/javascript">
+function init(){
+	var stretchers = document.getElementsByClassName('box');
+	var toggles = document.getElementsByClassName('tab');
+	var myAccordion = new fx.Accordion(
+		toggles, stretchers, {opacity: false, height: true, duration: 600}
+	);
+	//hash functions
+	var found = false;
+	toggles.each(function(h3, i){
+		var div = Element.find(h3, 'nextSibling');
+			if (window.location.href.indexOf(h3.title) > 0) {
+				myAccordion.showThisHideOpen(div);
+				found = true;
+			}
+		});
+		if (!found) myAccordion.showThisHideOpen(stretchers[0]);
+}
+</script>
+</head>
+<body style="text-align: center">
+
+
+
+
+
+
+
+
+<style>
+/* width */
+
+::-webkit-scrollbar-thumb {
+  background: #bbbbbb;
+  background: rgba(0, 0, 0, 0.15);
+  border-radius: 5px; 
+  height: 50px; }
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+</style>
+</head>   
+
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  
+  
+  background-color: #CBD8CF;
+  display: inline-block;
+  width: 1000px;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  
+ 
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  /* Style the links inside the navigation bar */
+
+  background-color: #009E60;
+
+
+ 
+
+}
+
+
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+ 
+   background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+
+  display: block;
+}
+.style2 {color: #990000}
+.style2 {color: #990000}
+</style>
+
+
+
+</blockquote>
+</div>
+
+ 
+  <div align="center">
+
+    <table border="0" cellpadding="2" width="1679" style="border-width: 1px; " bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF">
+    <tr> 
+      <td height="20" bgcolor="#CBD8CF" width="88" style="border-style: none; border-width: medium"> 
+			<img border="1" src="../iitg-logo.jpg" width="134" height="137"></td>
+			      <td height="28" bordercolor="0" bgcolor="#CBD8CF" align="center" style="border-style: none; border-width: medium" width="1578"> 
+          <blockquote>
+			<p align="left" style="margin-top: 0; margin-bottom: 0"><font face="Book Antiqua"><b>
+			<font color="#006600" size="5">Indian Institute of Technology 
+			Guwahati </font></b>
+			<font size="5" color="#006600">&nbsp;</font></font></p>
+			<p align="left" style="margin-top: 0; margin-bottom: 0"><font face="Book Antiqua"><b>
+			<font color="#006600" size="4">
+			Department of Civil Engineering</font></b><font color="#006600" size="4">
+			</font> 
+            
+          	</font> 
+            
+          </blockquote>
+        </td>
+    </tr>
+     
+  </div>
+    
+  
+  
+  </table>
+	<div align="center">
+    
+    <table border="0" cellpadding="2" width="1678" style="border-width: 1px; " bordercolor="#006600">
+    <tr> 
+      <td bordercolor="#009E60" bgcolor="#CBD8CF" width="258" style="border-style: none; border-width: medium" valign="top" align="center"> 
+       <p align="center"> 
+		&nbsp;</p>
+		<p align="center"> 
+		&nbsp;</p>
+		<p>
+		<img src="../641.JPG" width="183" height="186"></p>
+		<p align="center">&nbsp;<p align="center"><font color="#006600">Dr. 
+		Sreeja Pekkat<br>
+		Associate Professor<br>
+		Water Resources Engineering &amp; Management</font><blockquote>
+		<p align="center"><font color="#006600">&nbsp;<br></font>
+		
+		<span style="text-decoration: none">
+		<img border="0" src="mail.png" width="22" height="24" align="left"></span></font><font color="#006600"><span style="text-decoration: none">sreeja@iitg.ac.in</span></font></a><p>
+		<font face="Book Antiqua">
+		<span style="letter-spacing: 1pt; font-weight:700">
+		<font face="Arial" size="3">
+		<img border="0" src="ph.jpg" width="22" height="25" align="left"></font></span></font><font color="#006600">91-361-2582408</font></blockquote>
+		<p align="center">&nbsp;<p align="center" style="line-height: 150%; margin-top: 0; margin-bottom: 0">
+		<font color="#006600"><br>
+		</font>
+							<a href="https://scholar.google.com/citations?user=GX0n-HcAAAAJ&hl=en">
+							<input type="image" src="../google.png" alt="Submit" width="48" height="48" name="I7" border="0" align="middle"></a>
+							
+							
+							<a href="https://www.webofscience.com/wos/author/record/AAE-2512-2020">
+							<input type="image" src="../wos.png" alt="Submit" width="48" height="48" name="I2" border="0" align="middle"></a><p align="center" style="line-height: 150%; margin-top: 0; margin-bottom: 0">
+							
+							<a href="https://orcid.org/0000-0001-9166-5590">
+							<input type="image" src="../orcid_1.png" alt="Submit" width="48" height="48" name="I4" border="0" align="middle"></a><a href="https://iitg.irins.org/profile/128233">
+							<input type="image" src="../maxresdefault.gif" alt="Submit" width="48" height="48" name="I3" border="0" align="middle"></a><p align="center" style="line-height: 150%; margin-top: 0; margin-bottom: 0">
+							
+							&nbsp;<a href="https://www.youtube.com/playlist?list=PLwdnzlV3ogoU-zxx2wMFG_FSDsGKVQ93g"><input type="image" src="../nptel-logo.gif" alt="Submit" width="48" height="48" name="I7" border="0" align="middle"></a>
+							
+							
+							<a href="https://www.researchgate.net/profile/Sreeja-Pekkat/publicationsg.irins.org/profile/128245">
+
+							<input type="image" src="../RG.jpg" alt="Submit" width="48" height="48" name="I1" 
+							border="0" align="middle"></a><p align="center" style="line-height: 150%; margin-top: 0; margin-bottom: 0">
+		&nbsp;<p align="center" style="line-height: 150%; margin-top: 0; margin-bottom: 0">
+		&nbsp;<p align="center" style="line-height: 150%; margin-top: 0; margin-bottom: 0">
+		&nbsp;<p align="center" style="line-height: 150%; margin-top: 0; margin-bottom: 0">
+		&nbsp;<p align="center">&nbsp;<td height="28" bordercolor="0" bgcolor="#CBD8CF" align="center" style="border-style: none; border-width: medium" width="1406"> 
+    
+          
+<div class="navbar" style="width: 1273px; height: 39px">
+  <b><font face="Book Antiqua">
+  <a href=" ./home.html">
+	<font size="4" color="#336600">Home</font></a>  
+  </font></b>
+  
+  
+    
+ 
+   
+     <div class="dropdown">
+    <button class="dropbtn"><b>
+    
+     <font face="Book Antiqua" size="4" color="#336600">About</font></b> 
+
+    </button>
+    </font></b>
+    <div class="dropdown-content">
+      <p style="margin-top: 0; margin-bottom: 0" align="left">
+      <font face="Book Antiqua">
+      <a href="./educationexperience.html">	Education and Experience</a>
+      <a href="./researchinterest.html">Research Interests</a>
+       <a href="./recognitions.html">Recognitions</a>
+
+    </font>
+    </div>
+  </div> 
+  
+
+  
+  <b><font face="Book Antiqua">
+  <a href="./teaching.html">
+	<font size="4" color="#336600">Teaching</font></a>  
+  </font></b>
+  
+  
+  
+  
+  
+
+  
+    
+  <div class="dropdown">
+    <button class="dropbtn"><b>
+	<font face="Book Antiqua" size="4" color="#336600">Research</font></b> 
+		
+		
+     
+    </button>
+    </b>
+    <div class="dropdown-content">
+      <p style="margin-top: 0; margin-bottom: 0" align="left">
+      <font face="Book Antiqua">
+    
+      <a href="./researchexperience.html">
+		Research Projects</a></font></p>
+		<p style="margin-top: 0; margin-bottom: 0" align="left">
+		<font face="Book Antiqua">
+      	<a href="./researchgroup.html">
+		Research Group</a></font></div>
+  </div> 
+  
+  
+  
+  
+  
+   <div class="dropdown">
+    <button class="dropbtn"><b>
+     <font face="Book Antiqua" size="4" color="#336600">Publications</font></b> 
+
+    </button>
+    </font></b>
+    <div class="dropdown-content">
+      <p style="margin-top: 0; margin-bottom: 0" align="left">
+      <font face="Book Antiqua">
+      <a href="https://www.iitg.ac.in/sreeja/homepage/journals.html">Journals</a></font></p>
+		<p style="margin-top: 0; margin-bottom: 0" align="left">
+		<font face="Book Antiqua">
+      	<a href="https://www.iitg.ac.in/sreeja/homepage/conferences.html">
+		Conferences</a></font></p>
+		<p style="margin-top: 0; margin-bottom: 0" align="left">
+		<font face="Book Antiqua">
+      	<a href="https://www.iitg.ac.in/sreeja/homepage/bookchapters.html">Book 
+		Chapters</a>&nbsp;
+		
+    </div>
+  </div> 
+
+
+
+
+  
+  
+  
+  
+   <div class="dropdown">
+    <button class="dropbtn"><b>
+     <font face="Book Antiqua" size="4" color="#336600">Other Activities</font></b> 
+
+    </button>
+    </font></b>
+    <div class="dropdown-content">
+      <p style="margin-top: 0; margin-bottom: 0" align="left">
+      <font face="Book Antiqua">
+      <a href="./administrative.html">Administrative Responsibilities</a></font></p>
+		<p style="margin-top: 0; margin-bottom: 0" align="left">
+		<font face="Book Antiqua">
+      	<a href="./professional.html">Professional Activities</a></font></p>
+		<font face="Book Antiqua">
+		<p style="margin-top: 0; margin-bottom: 0; line-height:150%" align="left">
+      	<a href="./technicaltalks.html">Technical Talks</a></p>
+    </div>
+  </div> 
+
+
+
+    
+
+
+
+							
+		  
+</div>
+
+  
+  <div align="left">
+
+  
+  <table border="0" cellpadding="2" width="1400" bgcolor="#CBD8CF" bordercolorlight="#006600" bordercolordark="#006600">
+	<tr>
+		<td height="507" bgcolor="#FFFFFF" align="justify" style="border-style: solid; border-width: 1px; ">
+		<div class="icon-bar">
+			<div class="clearfix">
+				<p style="line-height: 150%; margin-top: 0; margin-bottom: 0">
+				</p>
+				<p style="line-height: 150%; margin-top: 0; margin-bottom: 0">
+				</p>
+				<p style="line-height: 150%; margin-top: 0; margin-bottom: 0">
+				</p>
+				<p style="line-height: 150%; margin-top: 0; margin-bottom: 0">
+				</p>
+				<p style="line-height: 150%; margin-top: 0; margin-bottom: 0">
+				</p>
+				<p style="line-height: 150%; margin-top: 0; margin-bottom: 0">
+				</p>
+				<p style="line-height: 150%; margin-top: 0; margin-bottom: 0">
+				</p>
+				<p style="line-height: 150%; margin-top: 0; margin-bottom: 0">
+				</p>
+				<p style="line-height: 150%; margin-top: 0; margin-bottom: 0">
+				</p>
+				<p style="line-height: 150%; margin-top: 0; margin-bottom: 0">
+				</p>
+				<p style="line-height: 150%; margin-top: 0; margin-bottom: 0">
+				</p>
+				<p style="line-height: 150%; margin-top: 0; margin-bottom: 0">
+				</p>
+				<p style="line-height: 150%; margin-top: 0; margin-bottom: 0">
+				</p>
+				<p style="line-height: 150%; margin-top: 0; margin-bottom: 0">
+				</p>
+				<p style="line-height: 150%; margin-top: 0; margin-bottom: 0">
+				</p>
+				<p style="line-height: 150%; margin-top: 0; margin-bottom: 0">
+			</div>
+			<div class="row">
+				<p style="line-height: 150%; margin-top: 0; margin-bottom: 0">
+				<p style="line-height: 150%; margin-top: 0; margin-bottom: 0">
+				<p style="line-height: 150%; margin-top: 0; margin-bottom: 0">
+				
+				<font face="Book Antiqua">
+				<blockquote>
+					<p align="left" style="margin-top: 0; margin-bottom: 0; line-height:200%">
+					<span style="letter-spacing: 1pt"><b>
+					<font face="Book Antiqua" size="4" color="#006600">Conferences</font></b></span></p>
+					<ol>
+						<li>
+						<p align="justify" style="line-height: 150%; margin-top:12px; margin-bottom:12px">Shejule, P. A., and S. Pekkat, (2024).
+						<font face="Book Antiqua" color="#222222">Performance Assessment of Hybrid 
+	Machine Learning Model for Multistep Ahead Hourly Rainfall Forecast in 
+	Northeast India, AGU24. </font></p>
+						<li>
+						<p align="justify" style="line-height: 150%; margin-top:12px; margin-bottom:12px">
+						<font face="Book Antiqua" color="#222222">Amrutha, S., &amp; Pekkat, S. (2024). 
+	Assessing the Relative Impact of Urbanization and Climate Change on Urban 
+	Flooding. AGU24.</font></p>
+						<li>
+						<p align="justify" style="line-height: 150%; margin-top:12px; margin-bottom:12px">Shejule, P. A., and S. Pekkat, (2024).
+						<font face="Book Antiqua" color="#222222">Understanding Nonlinear Dynamics 
+	and Chaos in Meteorological Parameters for Improved Rainfall Forecasts, 
+	International Conference Asia Oceania Geosciences Society (AOGS-2024)</font></p>
+						<li>
+						<p align="justify" style="line-height: 150%; margin-top:12px; margin-bottom:12px">
+						<span style="line-height: 107%; font-family: Book Antiqua">Naik, A. P., &amp; Pekkat, S. (2023). Determination of wetting soil water 
+	characteristics curve from disk infiltrometer measurements, <i>8<sup>th</sup> 
+	International Conference on Unsaturated Soils</i> (UNSAT) May, 2023, Milos 
+	Island, Greece. </span></p>
+						<li>
+						<p align="justify" style="line-height: 150%; margin-top:12px; margin-bottom:12px">Shejule, P. A., and S. Pekkat, (2023). 
+	Non-linear Rainfall Trend Extraction Using Hybrid Empirical Mode 
+	Decomposition And Singular Spectrum Analysis EGU General Assembly Conference 
+	Abstracts.</p>
+						<li>
+						<p align="justify" style="line-height: 150%; margin-top:12px; margin-bottom:12px">
+						<font face="Book Antiqua" color="#222222">Amrutha, S.,
+						</font>
+						<span style="line-height: 107%; font-family: Book Antiqua">Pekkat, S., and Subbiah, 
+	S. (2023). Impact of 
+	Climate Change on the Implementation of Green Roof on a Micro-urban 
+	Watershed. <i>20<sup>th</sup> Annual Meeting of the Asia Oceania Geosciences 
+	Society</i> (AOGS), SUNTEC Singapore.</span></p>
+						<li>
+						<p align="justify" style="line-height: 150%; margin-top:12px; margin-bottom:12px">Shejule, P. A., and S. Pekkat, (2022). 
+	Rainfall Forecast by Identification of Characteristic Components of Rainfall 
+	Using Sinular Spectrum Analysis, Proceedings of the 19th Annual Meeting of 
+	the Asia Oceania Geosciences Society (AOGS 2022) Singapore, 01–05 August 
+	2022. </p>
+						<li>
+						<p align="justify" style="line-height: 150%; margin-top:12px; margin-bottom:12px">
+						<span style="line-height: 107%; font-family: Book Antiqua">Naik, A. P., &amp; Pekkat, S. (2022). Analysing unsaturated flow using retention 
+	curves from field and laboratory infiltration measurements,</span><span style="font-family: Book Antiqua"> 
+	AGU Fall meeting 2022</span></p>
+						<li>
+						<p align="justify" style="line-height: 150%; margin-top:12px; margin-bottom:12px">Shejule, P. A., and S. Pekkat, (2022). 
+	Short-term Rainfall Forecasting Module Using Singular Spectrum Analysis,
+						<span style="line-height: 107%; font-family: Book Antiqua">&nbsp;<i>AGU Fall Meeting</i>, December 2022, AGU, Chicago, 
+	USA.</span></p>
+						<li>
+						<p align="justify" style="line-height: 150%; margin-top:12px; margin-bottom:12px">Shejule, P. A., and S. Pekkat, (2022). 
+	Analysis of Characteristics of Meteorological Parameters Using Ensemble 
+	Empirical Mode Decomposition, International Conference Sustainable 
+	Technologies for River Erosion Alleviation and Management (STREAM-2022)</p>
+						<li>
+						<p align="justify" style="line-height: 150%; margin-top:12px; margin-bottom:12px">
+						<font face="Book Antiqua" color="#222222">Amrutha, S., and</font><span style="line-height: 150%; color: black"> 
+	and Pekkat, S. (2021). Assessment of Uncertainty in the Intensity Duration 
+	Frequency Curves Due to Different GCMs, Probability Distribution, and 
+	Climate periods,&nbsp;</span>AGU Fall Meeting, 2021, New Orleans, LA, USA</p>
+						<li>
+						<p align="justify" style="line-height: 150%; margin-top:12px; margin-bottom:12px">
+						<font face="Book Antiqua" color="#222222">Amrutha, S., and</font><span style="line-height: 150%; color: black"> Pekkat, S. (2021). Analysis of the Effects of Various Covariates on Extreme 
+	Rainfall of Short Duration, <i>15<sup>th</sup> International Conference 
+	on Urban Drainage</i></span>(ICUD),
+						<span style="line-height: 150%; color: black">Melbourne, Australia.</span></p>
+						<li>
+						<p align="justify" style="line-height: 150%; margin-top:12px; margin-bottom:12px">
+						<span style="line-height: 150%; color: black">Naik, A. P. 
+	and Pekkat, S. (2021). Assessing soil water retention parameters obtained 
+	from two different databases using inverse modeling, <i>AGU Fall 
+	Meeting</i>, held in New Orleans, LA, 13-17 December 2021, id. 
+	H35ZC-06.</span></p>
+						<li>
+						<p align="justify" style="line-height: 150%; margin-top:12px; margin-bottom:12px">
+						<span lang="EN-IN" style="line-height: 150%; font-family: Book Antiqua; color: black">Naik, A. P., and Pekkat, S. (2021), A Comparative assessment of estimated 
+	soil hydraulic conductivity from rainfall simulator and infiltrometer using 
+	laboratory repacked soil samples,&nbsp; <i>EGU General Assembly</i> 
+	April-2021. </span><a style="text-decoration: underline; text-underline: single" href="https://doi.org/10.5194/egusphere-egu21-7099">
+						<span lang="EN-IN" style="line-height: 150%; font-family: Book Antiqua">
+						<font color="#000000">https://doi.org/10.5194/egusphere-egu21-7099</font></span></a><span lang="EN-IN" style="line-height: 150%; font-family: Book Antiqua; color: black">.</span></p>
+						<li>
+						<p align="justify" style="line-height: 150%; margin-top:12px; margin-bottom:12px">
+						<font face="Book Antiqua" color="#222222">Amrutha, S., and</font><span style="line-height: 150%; color: black">
+	Pekkat, S. (2021). Climate Change Assessment for an Urban 
+	Catchment of Northeast India, <i>4<sup>th</sup> International Conference on 
+	System, Energy and Environment </i>(ICSEE 2021), Kerala.</span></p>
+						<li>
+						<p align="justify" style="line-height: 150%; margin-top:12px; margin-bottom:12px">
+						<span style="line-height: 150%; color: black">Naik, A. 
+	P., and Pekkat, S. (2020). Influence of time on hydraulic conductivity 
+	estimation using Mini Disc Infiltrometer, <i>2<sup>nd</sup> ASCE India Conference on 
+	Challenges of Resilient and Sustainable Infrastructure Development in 
+	Emerging Economies</i> (CRSIDE2020), Kolkata, India, March 2-4.</span></p>
+						<li>
+						<p align="justify" style="line-height: 150%; margin-top:12px; margin-bottom:12px">
+						<font face="Book Antiqua" color="#222222">Amrutha, S.,</font><span style="line-height: 150%; color: black"> 
+	and Pekkat, S. (2020). Appraisal of Low Impact Developments (LIDs) for 
+	Effective Storm Water Management of Urbanized Catchments, <i>2<sup>nd</sup> ASCE India 
+	Conference on Challenges of Resilient and Sustainable Infrastructure 
+	Development in Emerging Economies</i>(CRSIDE2020), March 2-4, </span>Kolkata, 
+	West Bengal, India</p>
+						<li>
+						<p align="justify" style="line-height: 150%; margin-top:12px; margin-bottom:12px">
+						<span lang="EN-IN" style="line-height: 150%; font-family: Book Antiqua; color: black">Naik, A. P., and Pekkat, S. (2019) Soil Hydraulic Characterization using 
+	mini disc infiltrometer, <i>Research Conclave</i>, IIT Guwahati, Assam, India.</span></p>
+						<li>
+						<p align="justify" style="line-height: 150%; margin-top:12px; margin-bottom:12px">
+						<font face="Book Antiqua" color="#222222">Amrutha, S., and</font><span lang="EN-IN" style="line-height: 150%; font-family: Book Antiqua; color: black"> Pekkat, S. (2019). Time Series Analysis of Shift, Dispersion, 
+	and Trend of Monsoon Season for Guwahati City Using Fuzzy Segmentation</span><span style="line-height: 150%; font-family: Book Antiqua; color: black">, 
+						</span>
+						<span lang="EN-IN" style="line-height: 150%; font-family: Book Antiqua; color: black">&nbsp;<i>Research Conclave
+						</i>2019, IIT Guwahati.</span></p>
+						<li>
+						<p align="justify" style="line-height: 150%; margin-top:12px; margin-bottom:12px">
+						<font face="Book Antiqua" color="#222222">Naik, A. P. and Sreeja P. (2019). 
+	A Comparative Assessment of Infiltration Characteristics Obtained Using Two 
+	Disc Infiltrometers, <i>16<sup>th </sup>Annual Meeting on Asian Oceania Geosciences 
+	Society</i> (AOGS), Singapore.</font></p>
+						<li>
+						<p align="justify" style="line-height: 150%; margin-top:12px; margin-bottom:12px">
+						<font face="Book Antiqua" color="#222222">Amrutha, S., and Sreeja P. (2019). 
+	Impact of Climatic Shift and Dispersion on Analyzing the Climate Change with 
+	Crisp Seasonal Boundaries, <i>16<sup>th </sup>Annual Meeting on Asian Oceania Geosciences 
+	Society </i>(AOGS), Singapore.</font></p>
+						<li>
+						<p align="justify" style="line-height: 150%; margin-top:12px; margin-bottom:12px">
+						<font face="Book Antiqua" color="#222222">Naik, A. P., and Sreeja, P. 
+	(2018). Discrepancy in infiltration equation parameters while using ponded 
+	and tension boundary pressure head conditions,<i> HYDRO international</i> 
+	(Received Best paper Award).</font></p>
+						<li>
+						<p align="justify" style="line-height: 150%; margin-top:12px; margin-bottom:12px">
+						<font face="Book Antiqua" color="#222222">Amrutha, S., and Sreeja P. (2018). 
+	Identification of Historical Shift, Dispersion, and Trend of the Monsoon 
+	Season for Guwahati City Using Fuzzy Segmentation and Trend Analyses, <i>HYDRO 
+						</i></font><i>International </i>(Hydraulics, Water 
+	Resources and Coastal Engineering), NIT Patna, Bihar, India</p>
+						<li>
+						<p align="justify" style="line-height: 150%; margin-top:12px; margin-bottom:12px">
+						<font face="Book Antiqua" color="#222222">Amrutha, S., and Pekkat, S. 
+	(2016). Statistical Analysis and Comparison of Point Gauge Rainfall and 
+	Downscaled Rainfall For Guwahati City. <i>21<sup>st</sup> International conference on Hydraulics, 
+	Water Resources, Coastal Engineering</i>, HYDRO, Dec. 8-10,<i> </i>CWPRS, Pune, India.</font></p>
+						<li>
+						<p align="justify" style="line-height: 150%; margin-top:12px; margin-bottom:12px">
+						<font face="Book Antiqua" color="#222222">Naik, A. P., Ghosh, B. and Sreeja 
+	P. (2016). Estimating soil hydraulic properties using mini disc infiltrometer,
+						<i>21<sup>st</sup> International conference on Hydraulics, 
+	Water Resources, Coastal Engineering</i>, HYDRO, Dec. 8-10,<i> </i>CWPRS, Pune, India.</font></p>
+						<li>
+						<p align="justify" style="line-height: 150%; margin-top:12px; margin-bottom:12px">
+						<font face="Book Antiqua" color="#222222">Ghosh, B. and Sreeja, P. (2016), 
+	Influence of drainage conditions on infiltration characteristics determined 
+	using disc infiltrometers, <i>21<sup>st</sup> International conference on Hydraulics, 
+	Water Resources, Coastal Engineering</i>, HYDRO, Dec. 8-10, CWPRS, Pune, India.</font></p>
+						<li>
+						<p align="justify" style="line-height: 150%; margin-top:12px; margin-bottom:12px">
+						<font face="Book Antiqua" color="#222222">Ghosh, B. and Sreeja, P. (2014). 
+	Comparative study of double ring and tension infiltrometers to measure 
+	infiltration properties and hydraulic conductivity, <i>19 <sup>th</sup> International 
+	conference on Hydraulics, Water Resources, Coastal and Environmental 
+	Engineering</i>, Dec. 18-20, Manit, Bhopal, India.</font></p>
+						<li>
+						<p align="justify" style="line-height: 150%; margin-top:12px; margin-bottom:12px">
+						<font face="Book Antiqua" color="#222222">Sahoo, S. N. and Sreeja, P. 
+	(2013). Flood inundation mapping (FIM): An effective tool for urban flood 
+	management, <i>HYDRO</i>, ISH, IIT Madras, India.</font></p>
+						<li>
+						<p align="justify" style="line-height: 150%; margin-top:12px; margin-bottom:12px">
+						<font face="Book Antiqua" color="#222222">Sahoo, S. N. and Sreeja, P. 
+	(2012). Impact of total and effective impervious area on runoff prediction, 
+	In Proceedings of <i>ENSURE</i>, February 24- 26, IIT Guwahati, India.</font></p>
+						<li>
+						<p align="justify" style="line-height: 150%; margin-top:12px; margin-bottom:12px">
+						<font face="Book Antiqua" color="#222222">Sahoo, S. N. and Sreeja, P. 
+	(2012). Role of rainfall events and imperviousness parameters in urban 
+	runoff modeling, <i>HYDRO</i>, ISH, IIT Bombay, Dec 7-8,&nbsp;India.</font></p>
+						<li>
+						<p align="justify" style="line-height: 150%; margin-top:12px; margin-bottom:12px">
+						<font face="Book Antiqua" color="#222222">Bhave, S. and Sreeja, P. (2012) 
+	Influence of initial soil condition on infiltration characteristics 
+	determined using a disk infiltrometer, <i>HYDRO</i>, ISH, IIT Bombay, Dec 
+	7-8,&nbsp;India.</font></p>
+						<li>
+						<p align="justify" style="line-height: 150%; margin-top:12px; margin-bottom:12px">
+						<font face="Book Antiqua" color="#222222">Sahoo, S. N. and Sreeja, P. 
+	(2011). Indirect Determination of Effective Impervious Area (EIA) of an 
+	urban city in North East India, In proceedings of <i>World Environmental Water 
+	Resources Congress</i>, EWRI, ASCE, May 22 to 26, California.</font></p>
+						<li>
+						<p align="justify" style="line-height: 150%; margin-top:12px; margin-bottom:12px">
+						<font face="Book Antiqua" color="#222222">Sahoo, S. N. and Sreeja, P. 
+	(2011). Determination of Effective Impervious Area in Guwahati city: A Case 
+	Study, <i>AMTID,</i> September 28-30, NIT Calicut, Kerala, India.</font></p>
+						<li>
+						<p align="justify" style="line-height: 150%; margin-top:12px; margin-bottom:12px">
+						<font face="Book Antiqua" color="#222222">Sahoo, S. N. and Sreeja, P. 
+	(2011). Total and Effective Impervious Area from low resolution satellite 
+	imageries, <i>ACE</i>, October 21-23, KLU, Hyderabad, India.</font></p>
+						<li>
+						<p align="justify" style="line-height: 150%; margin-top:12px; margin-bottom:12px">
+						<font face="Book Antiqua" color="#222222">Sahoo, S. N. and Sreeja, P. 
+	(2010). Evaluation of near saturation infiltration characteristics of a 
+	locally available soil, In proceedings of <i>6<sup>th</sup> International Congress in 
+	Environmental Geotechniques</i> (6ICEG), New Delhi.</font></p>
+						<li>
+						<p align="justify" style="line-height: 150%; margin-top:12px; margin-bottom:12px">
+						<font face="Book Antiqua" color="#222222">Vijayalakshmi, J., and Sreeja, P. 
+	(2010). Study on the scouring behaviour around piers of two parallel 
+	bridges, In proceedings of <i>World Environmental Water Resources Congress</i>, EWRI, ASCE, Jan 5-7, Chennai, India.</font></p>
+						<li>
+						<p align="justify" style="line-height: 150%; margin-top:12px; margin-bottom:12px">
+						<font face="Book Antiqua" color="#222222">Vijayalakshmi, J. and Sreeja, P. 
+	(2009). A study on scouring behaviour and flow characteristics due to 
+	multiple bridge system, <i>HYDRO</i>, ISH,&nbsp;17-18 December, CWPRS Pune, India.</font></p>
+						<li>
+						<p align="justify" style="line-height: 150%; margin-top:12px; margin-bottom:12px">
+						<font face="Book Antiqua" color="#222222">Sreeja, P. and Gupta, K. (2006). 
+	Transient Flow Modeling of Urban Drainage System Using Transfer Function 
+	Approach, <i>International Conference-An International Perspective on 
+	Environmental and Water Resources</i>, ASCE, New Delhi, India.</font></p>
+						<li>
+						<p align="justify" style="line-height: 150%; margin-top:12px; margin-bottom:12px">
+						<font face="Book Antiqua" color="#222222">Sreeja, P. and Gupta, K. (2005). 
+	Dynamic modeling of detention tanks for flood control in urban drainage 
+	systems in developing countries, <i>10<sup>th</sup> International Conference on Urban 
+	Drainage</i>, Denmark.</font></p>
+						<li>
+						<p align="justify" style="line-height: 150%; margin-top:12px; margin-bottom:12px">
+						<font face="Book Antiqua" color="#222222">Sreeja, P. and Gupta, K. (2005). 
+	Dynamic Modeling of Urban Drainage Systems for Controller Design, <i>5<sub>
+						</sub><sup>th</sup> 
+	International R&amp;D Conference on Developments and Management of Water and 
+	Energy Resources</i>, February 15-18, Bangalore.</font></p>
+						<li>
+						<p align="justify" style="line-height: 150%; margin-top:12px; margin-bottom:12px">
+						<font face="Book Antiqua" color="#222222">Gupta, K. and Sreeja, P. (2004). 
+	Urban Flood Management by Non-Structural Measures, <i>Workshop on Flood and 
+	Drought Management</i>, CBIP, New Delhi, 16-17 September.</font></p>
+						<li>
+						<p align="justify" style="line-height: 150%; margin-top:12px; margin-bottom:12px">
+						<font face="Book Antiqua" color="#222222">Sreeja, P. and Gupta, K. (2002). 
+	Real time control strategy for urban drainage management in India,<i> 
+	International Conference on Water and Wastewater: Perspectives of Developing 
+	Countries</i>, Delhi, India, EWRI-ASCE, 11-13 December, 351-358.</font></p>
+						<li>
+						<p align="justify" style="line-height: 150%; margin-top:12px; margin-bottom:12px">
+						<font face="Book Antiqua" color="#222222">Sreeja, P. and Jyothis Thomas 
+	(2001). Application of Rainfall-Discharge Model Achenkovil River Basin, <i>Regional Seminar on Technological Developments for the third Millennium</i>, 
+	March 16-17, Thiruvananthapuram.</font></p>
+					</ol>
+		<p>
+				</blockquote>
+				<p align="left" style="margin-top: 12px; margin-bottom: 12px; line-height:150%">&nbsp;</p>
+				<p align="left" style="margin-top: 12px; margin-bottom: 12px; line-height:150%">&nbsp;</p>
+				<p align="left" style="margin-top: 12px; margin-bottom: 12px; line-height:150%">&nbsp;</p>
+				<p align="left" style="margin-top: 12px; margin-bottom: 12px; line-height:150%">&nbsp;</p>
+				<p align="left" style="margin-top: 12px; margin-bottom: 12px; line-height:150%">&nbsp;</p>
+				<p align="left" style="margin-top: 12px; margin-bottom: 12px; line-height:150%">&nbsp;</p>
+				<p align="left" style="margin-top: 12px; margin-bottom: 12px; line-height:150%">&nbsp;</p>
+				<p style="line-height: 150%; margin-top: 0; margin-bottom: 0">
+			</div></tr>
+	</table>
+  
+  </div>
+  
+  <table border="0" align="center" cellpadding="2" cellspacing="2" width="1357" style="border-width: 0px">
+    <tr> 
+      <td height="28" bordercolor="0" bgcolor="#CBD8CF" width="181" style="border-style: none; border-width: medium" align="center"> 
+        <div id="civil2" style="width: 171px; height: 43px"> 
+          <p align="left" style="margin-top: 0; margin-bottom: 0">
+			<font face="Times New Roman"><span class="view"><a href="http://www.iitg.ac.in/civil/"style="color:#228B22;">
+			<font color="#336600"><span style="font-weight: 400">Civil Home</span></font></a></span></font><font color="#336600" face="Times New Roman"><span class="view">|</span></font><font face="Times New Roman"><span class="view"><font color="#336600">&nbsp;  
+			</font>
+              <a href="http://www.iitg.ac.in/"style="color:#228B22;"><font color="#336600">
+			<span style="font-weight: 400">IITG Home</span></font></a></span></font><p align="left" style="margin-top: 0; margin-bottom: 0">
+			<font face="Times New Roman">
+			<span class="view"> <a href="http://www.iitg.ac.in/civil/contact.html"style="color:#228B22;">
+			<font color="#336600"><span style="font-weight: 400">Contact Us</span></font></a></span></font></div>
+      </td>
+      
+     
+      
+      <td height="28" bordercolor="0" bgcolor="#CBD8CF" align="center" style="border-style: none; border-width: medium" width="1162"> 
+          <p align="left"><span class="view">
+			
+			<font face="Times New Roman" color="#006600">Divisions: </font><font face="Times New Roman">
+			<font color="#006600">
+			| 
+			
+			
+			</font><i><a href="http://www.iitg.ac.in/civil//Earth_Sciences_Lab/index.html"style="color:#228B22;">
+			<font color="#006600"><span style="font-weight: 400">Earth System</span></font></a><font color="#006600"> 
+			|
+			</font><a href="https://www.iitg.ac.in/civil/Environmental%20Laboratory/index.htm"style="color:#228B22;">
+			<font color="#006600"><span style="font-weight: 400">Environmental</span></font></a><font color="#006600"> 
+			| 
+			</font><a href="http://www.iitg.ac.in/civil/geotech_lab.html"style="color:#228B22;">
+			<font color="#006600"><span style="font-weight: 400">Geotechnical</span></font></a><font color="#006600"> 
+			 
+			  | </font><a href="http://www.iitg.ac.in/civil/infrastructure_lab.html"style="color:#228B22;">
+			<font color="#006600"><span style="font-weight: 400">Infrastructure</span></font></a><font color="#006600"> 
+
+			 
+			 | </font><a href="https://www.iitg.ac.in/civil/Structural%20Labaratory/index.htm"style="color:#228B22;">
+			<font color="#006600"><span style="font-weight: 400">Structural</span></font></a><font color="#006600"> 
+			| </font>
+			<a href="http://www.iitg.ac.in/civil/transport_lab.html"style="color:#228B22;">
+			<font color="#006600"><span style="font-weight: 400">Transportation</span></font></a><font color="#006600"> 
+			| 
+			
+			</font><a href="https://www.iitg.ac.in/civil/Water%20Resources%20Engineering/Water%20Resources%20Engineering/Facilities.html"style="color:#228B22;">
+			<font color="#006600"><span style="font-weight: 400">Water Resources</span></font></a><font color="#006600"> 
+			|</font></i></font></span></p></td>
+    </tr>
+    
+  
+  
+	</table>
+
+		</td>
+    </tr>
+    </table>
+    
+    
+
+
+  
+  
+    	</div>
+    
+    
+
+
+  
+  
+    	</body>
+</head>
+</html>

@@ -1,0 +1,627 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dr. Sreeja Pekkat Home</title>
+
+
+<link rel="stylesheet" href="../../scripts/style.css" type="text/css">
+<link rel="icon" href="http://www.iitg.ac.in/res/logo-top.gif" />
+
+<title>Dr. Sreeja P. Home</title>
+<style type="text/css">
+<!--
+.sidebar a:link{
+	text-decoration:none;
+	color: #333333;
+	font-weight: bold;
+}
+.sidebar a, .tblink a:visited {
+	color: #8B8B8B;
+	font-weight: bold;
+}
+.sidebar a:hover,a:active {
+	color: #000000;
+}
+body {
+	margin-top: 2px;
+	background-color: #F4F0E1;
+}
+.style3 {
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.sidebar{
+	font-family: Verdana;
+	font-size: 10pt;
+}
+-->
+</style>
+<style type="text/css">
+
+#wrapper{
+width: 100%;
+margin: 0 auto;
+}
+.box{
+	background: #fff;
+	font-family: Verdana;
+	font-size: 10pt;
+}
+
+.boxholder{
+	clear: both;
+	background-color: #FFFFFF;
+}
+.tblink {
+	text-decoration: none;
+	color: #000000;
+    }
+ 
+.tblink a:link{
+	text-decoration:none;
+	color: #333333;
+}
+.tblink a, .tblink a:visited {
+	color: #333333;
+}
+.tblink a:hover,a:active {
+	color: #000000;
+}
+
+
+
+
+
+
+
+
+.tab{
+	float: left;
+	height: auto;
+	width: auto;
+	margin: 0 1px 0 0;
+	text-align: center;
+	background-color: #F4F0E1;
+	min-width: 90px;
+	color: #FFFFFF;
+	padding: 0 6px 0 7px;
+}
+.tabtxt{
+	margin: 0;
+	color: #fff;
+	font-size: 11px;
+	font-weight: bold;
+	padding: 4px 0 4px 0;
+	font-family: Verdana;
+}
+.style29 {
+	font-size: 12pt;
+	font-weight: bold;
+	color: #444;
+	font-family: Verdana;
+}
+#content { padding-left: 3px;  }
+.style2 {color: #FFFFFF}
+ table.MsoNormalTable
+	{mso-style-parent:"";
+	text-align:justify;
+	text-indent:.25in;
+	line-height:150%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	}
+</style>
+<script type="text/javascript" src="../../scripts/prototype.lite.js"></script>
+<script type="text/javascript" src="../../scripts/moo.fx.js"></script>
+<script type="text/javascript" src="../../scripts/moo.fx.pack.js"></script>
+<script type="text/javascript">
+function init(){
+	var stretchers = document.getElementsByClassName('box');
+	var toggles = document.getElementsByClassName('tab');
+	var myAccordion = new fx.Accordion(
+		toggles, stretchers, {opacity: false, height: true, duration: 600}
+	);
+	//hash functions
+	var found = false;
+	toggles.each(function(h3, i){
+		var div = Element.find(h3, 'nextSibling');
+			if (window.location.href.indexOf(h3.title) > 0) {
+				myAccordion.showThisHideOpen(div);
+				found = true;
+			}
+		});
+		if (!found) myAccordion.showThisHideOpen(stretchers[0]);
+}
+</script>
+</head>
+<body style="text-align: center">
+
+
+
+
+
+
+
+
+<style>
+/* width */
+
+::-webkit-scrollbar-thumb {
+  background: #bbbbbb;
+  background: rgba(0, 0, 0, 0.15);
+  border-radius: 5px; 
+  height: 50px; }
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+</style>
+</head>   
+
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  
+  
+  background-color: #CBD8CF;
+  display: inline-block;
+  width: 1000px;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  
+ 
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  /* Style the links inside the navigation bar */
+
+  background-color: #009E60;
+
+
+ 
+
+}
+
+
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+ 
+   background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+
+  display: block;
+}
+.style2 {color: #990000}
+.style2 {color: #990000}
+</style>
+
+
+
+</blockquote>
+</div>
+
+ 
+  <div align="center">
+
+    <table border="0" cellpadding="2" width="1679" style="border-width: 1px; " bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF">
+    <tr> 
+      <td height="20" bgcolor="#CBD8CF" width="88" style="border-style: none; border-width: medium"> 
+			<img border="1" src="../iitg-logo.jpg" width="134" height="137"></td>
+			      <td height="28" bordercolor="0" bgcolor="#CBD8CF" align="center" style="border-style: none; border-width: medium" width="1578"> 
+          <blockquote>
+			<p align="left" style="margin-top: 0; margin-bottom: 0"><font face="Book Antiqua"><b>
+			<font color="#006600" size="5">Indian Institute of Technology 
+			Guwahati </font></b>
+			<font size="5" color="#006600">&nbsp;</font></font></p>
+			<p align="left" style="margin-top: 0; margin-bottom: 0"><font face="Book Antiqua"><b>
+			<font color="#006600" size="4">
+			Department of Civil Engineering</font></b><font color="#006600" size="4">
+			</font> 
+            
+          	</font> 
+            
+          </blockquote>
+        </td>
+    </tr>
+     
+  </div>
+    
+  
+  
+  </table>
+	<div align="center">
+    
+    <table border="0" cellpadding="2" width="1678" style="border-width: 1px; " bordercolor="#006600">
+    <tr> 
+      <td bordercolor="#009E60" bgcolor="#CBD8CF" width="258" style="border-style: none; border-width: medium" valign="top" align="center"> 
+       <p align="center"> 
+		&nbsp;</p>
+		<p align="center"> 
+		&nbsp;</p>
+		<p>
+		<img src="../641.JPG" width="183" height="186"></p>
+		<p align="center">&nbsp;<p align="center"><font color="#006600">Dr. 
+		Sreeja Pekkat<br>
+		Associate Professor<br>
+		Water Resources Engineering &amp; Management</font><blockquote>
+		<p align="center"><font color="#006600">&nbsp;<br></font>
+		
+		<span style="text-decoration: none">
+		<img border="0" src="mail.png" width="22" height="24" align="left"></span></font><font color="#006600"><span style="text-decoration: none">sreeja@iitg.ac.in</span></font></a><p>
+		<font face="Book Antiqua">
+		<span style="letter-spacing: 1pt; font-weight:700">
+		<font face="Arial" size="3">
+		<img border="0" src="ph.jpg" width="22" height="25" align="left"></font></span></font><font color="#006600">91-361-2582408</font></blockquote>
+		<p align="center">&nbsp;<p align="center" style="line-height: 150%; margin-top: 0; margin-bottom: 0">
+		<font color="#006600"><br>
+		</font>
+							<a href="https://scholar.google.com/citations?user=GX0n-HcAAAAJ&hl=en">
+							<input type="image" src="../google.png" alt="Submit" width="48" height="48" name="I7" border="0" align="middle"></a>
+							
+							
+							<a href="https://www.webofscience.com/wos/author/record/AAE-2512-2020">
+							<input type="image" src="../wos.png" alt="Submit" width="48" height="48" name="I2" border="0" align="middle"></a><p align="center" style="line-height: 150%; margin-top: 0; margin-bottom: 0">
+							
+							<a href="https://orcid.org/0000-0001-9166-5590">
+							<input type="image" src="../orcid_1.png" alt="Submit" width="48" height="48" name="I4" border="0" align="middle"></a><a href="https://iitg.irins.org/profile/128233">
+							<input type="image" src="../maxresdefault.gif" alt="Submit" width="48" height="48" name="I3" border="0" align="middle"></a><p align="center" style="line-height: 150%; margin-top: 0; margin-bottom: 0">
+							
+							&nbsp;<a href="https://www.youtube.com/playlist?list=PLwdnzlV3ogoU-zxx2wMFG_FSDsGKVQ93g"><input type="image" src="../nptel-logo.gif" alt="Submit" width="48" height="48" name="I7" border="0" align="middle"></a>
+							
+							
+							<a href="https://www.researchgate.net/profile/Sreeja-Pekkat/publicationsg.irins.org/profile/128245">
+
+							<input type="image" src="../RG.jpg" alt="Submit" width="48" height="48" name="I1" 
+							border="0" align="middle"></a><p align="center" style="line-height: 150%; margin-top: 0; margin-bottom: 0">
+		&nbsp;<p align="center" style="line-height: 150%; margin-top: 0; margin-bottom: 0">
+		&nbsp;<p align="center" style="line-height: 150%; margin-top: 0; margin-bottom: 0">
+		&nbsp;<p align="center" style="line-height: 150%; margin-top: 0; margin-bottom: 0">
+		&nbsp;<p align="center">&nbsp;<td height="28" bordercolor="0" bgcolor="#CBD8CF" align="center" style="border-style: none; border-width: medium" width="1406"> 
+    
+          
+<div class="navbar" style="width: 1273px; height: 39px">
+  <b><font face="Book Antiqua">
+  <a href=" ./home.html">
+	<font size="4" color="#336600">Home</font></a>  
+  </font></b>
+  
+  
+    
+ 
+   
+     <div class="dropdown">
+    <button class="dropbtn"><b>
+    
+     <font face="Book Antiqua" size="4" color="#336600">About</font></b> 
+
+    </button>
+    </font></b>
+    <div class="dropdown-content">
+      <p style="margin-top: 0; margin-bottom: 0" align="left">
+      <font face="Book Antiqua">
+      <a href="./educationexperience.html">	Education and Experience</a>
+      <a href="./researchinterest.html">Research Interests</a>
+       <a href="./recognitions.html">Recognitions</a>
+
+    </font>
+    </div>
+  </div> 
+  
+
+  
+  <b><font face="Book Antiqua">
+  <a href="./teaching.html">
+	<font size="4" color="#336600">Teaching</font></a>  
+  </font></b>
+  
+  
+  
+  
+  
+
+  
+    
+  <div class="dropdown">
+    <button class="dropbtn"><b>
+	<font face="Book Antiqua" size="4" color="#336600">Research</font></b> 
+		
+		
+     
+    </button>
+    </b>
+    <div class="dropdown-content">
+      <p style="margin-top: 0; margin-bottom: 0" align="left">
+      <font face="Book Antiqua">
+    
+      <a href="./researchexperience.html">
+		Research Projects</a></font></p>
+		<p style="margin-top: 0; margin-bottom: 0" align="left">
+		<font face="Book Antiqua">
+      	<a href="./researchgroup.html">
+		Research Group</a></font></div>
+  </div> 
+  
+  
+  
+  
+  
+   <div class="dropdown">
+    <button class="dropbtn"><b>
+     <font face="Book Antiqua" size="4" color="#336600">Publications</font></b> 
+
+    </button>
+    </font></b>
+    <div class="dropdown-content">
+      <p style="margin-top: 0; margin-bottom: 0" align="left">
+      <font face="Book Antiqua">
+      <a href="https://www.iitg.ac.in/sreeja/homepage/journals.html">Journals</a></font></p>
+		<p style="margin-top: 0; margin-bottom: 0" align="left">
+		<font face="Book Antiqua">
+      	<a href="https://www.iitg.ac.in/sreeja/homepage/conferences.html">
+		Conferences</a></font></p>
+		<p style="margin-top: 0; margin-bottom: 0" align="left">
+		<font face="Book Antiqua">
+      	<a href="https://www.iitg.ac.in/sreeja/homepage/bookchapters.html">Book 
+		Chapters</a>&nbsp;
+		
+    </div>
+  </div> 
+
+
+
+
+  
+  
+  
+  
+   <div class="dropdown">
+    <button class="dropbtn"><b>
+     <font face="Book Antiqua" size="4" color="#336600">Other Activities</font></b> 
+
+    </button>
+    </font></b>
+    <div class="dropdown-content">
+      <p style="margin-top: 0; margin-bottom: 0" align="left">
+      <font face="Book Antiqua">
+      <a href="./administrative.html">Administrative Responsibilities</a></font></p>
+		<p style="margin-top: 0; margin-bottom: 0" align="left">
+		<font face="Book Antiqua">
+      	<a href="./professional.html">Professional Activities</a></font></p>
+		<font face="Book Antiqua">
+		<p style="margin-top: 0; margin-bottom: 0; line-height:150%" align="left">
+      	<a href="./technicaltalks.html">Technical Talks</a></p>
+    </div>
+  </div> 
+
+
+
+    
+
+
+
+							
+		  
+</div>
+
+  
+  <div align="left">
+
+  
+  <table border="0" cellpadding="2" width="1400" bgcolor="#CBD8CF" bordercolorlight="#006600" bordercolordark="#006600">
+	<tr>
+		<td height="507" bgcolor="#FFFFFF" align="justify" style="border-style: solid; border-width: 1px; ">
+		<div class="icon-bar">
+			<div class="clearfix">
+				<p style="line-height: 150%; margin-top: 0; margin-bottom: 0">
+				</p>
+				<p style="line-height: 150%; margin-top: 0; margin-bottom: 0">
+				</p>
+				<p style="line-height: 150%; margin-top: 0; margin-bottom: 0">
+				</p>
+				<p style="line-height: 150%; margin-top: 0; margin-bottom: 0">
+				</p>
+				<p style="line-height: 150%; margin-top: 0; margin-bottom: 0">
+				</p>
+				<p style="line-height: 150%; margin-top: 0; margin-bottom: 0">
+				</p>
+				<p style="line-height: 150%; margin-top: 0; margin-bottom: 0">
+				</p>
+				<p style="line-height: 150%; margin-top: 0; margin-bottom: 0">
+				</p>
+				<p style="line-height: 150%; margin-top: 0; margin-bottom: 0">
+				</p>
+				<p style="line-height: 150%; margin-top: 0; margin-bottom: 0">
+				</p>
+				<p style="line-height: 150%; margin-top: 0; margin-bottom: 0">
+				</p>
+				<p style="line-height: 150%; margin-top: 0; margin-bottom: 0">
+				</p>
+				<p style="line-height: 150%; margin-top: 0; margin-bottom: 0">
+				</p>
+				<p style="line-height: 150%; margin-top: 0; margin-bottom: 0">
+				</p>
+				<p style="line-height: 150%; margin-top: 0; margin-bottom: 0">
+				</p>
+				<p style="line-height: 150%; margin-top: 0; margin-bottom: 0">
+			</div>
+			<div class="row">
+				<p style="line-height: 150%; margin-top: 0; margin-bottom: 0">
+				<p style="line-height: 150%; margin-top: 0; margin-bottom: 0">
+				<p style="line-height: 150%; margin-top: 0; margin-bottom: 0">
+				
+				<font face="Book Antiqua">
+			<p align="left" style="margin-top: 0; margin-bottom: 0">
+			<span style="letter-spacing: 1pt"><b>
+			<font face="Book Antiqua" size="4" color="#006600">Education</font></b></span></p>
+			<blockquote>
+				<p align="left" style="margin-top: 12px; margin-bottom: 12px; line-height:150%">
+				<span style="letter-spacing: 1pt">Ph. D., Water Resources Engineering, Indian 
+		Institute of Technology Bombay, India<br>M. Tech., Hydraulics 
+		Engineering, College of Engg. Trivandrum, Kerala, India<br>B. Tech., 
+		Civil Engineering, Calicut University, Kerala, India</span></p>
+			</blockquote>
+			<p align="left" style="margin-top: 0; margin-bottom: 0">
+			<span style="letter-spacing: 1pt"><b>
+			<font face="Book Antiqua" size="4" color="#006600">Experience</font></b></span></p>
+			<blockquote>
+				<p align="left" style="margin-top: 12px; margin-bottom: 12px; line-height:150%">
+				<span style="letter-spacing: 1pt">Associate Professor, IIT Guwahati (March 2014 
+		onwards)<br>Assistant Professor, IIT Guwahati (July 2007-March 2014)</span></p>
+			</blockquote>
+			<p align="left" style="margin-top: 12px; margin-bottom: 12px; line-height:150%">&nbsp;</p>
+				<p align="left" style="margin-top: 12px; margin-bottom: 12px; line-height:150%">&nbsp;</p>
+				<p align="left" style="margin-top: 12px; margin-bottom: 12px; line-height:150%">&nbsp;</p>
+				<p align="left" style="margin-top: 12px; margin-bottom: 12px; line-height:150%">&nbsp;</p>
+				<p align="left" style="margin-top: 12px; margin-bottom: 12px; line-height:150%">&nbsp;</p>
+				<p align="left" style="margin-top: 12px; margin-bottom: 12px; line-height:150%">&nbsp;</p>
+				<p align="left" style="margin-top: 12px; margin-bottom: 12px; line-height:150%">&nbsp;</p>
+				<p align="left" style="margin-top: 12px; margin-bottom: 12px; line-height:150%">&nbsp;</p>
+				<p align="left" style="margin-top: 12px; margin-bottom: 12px; line-height:150%">&nbsp;</p>
+				<p align="left" style="margin-top: 12px; margin-bottom: 12px; line-height:150%">&nbsp;</p>
+				<p align="left" style="margin-top: 12px; margin-bottom: 12px; line-height:150%">&nbsp;</p>
+				<p align="left" style="margin-top: 12px; margin-bottom: 12px; line-height:150%">&nbsp;</p>
+				<p align="left" style="margin-top: 12px; margin-bottom: 12px; line-height:150%">&nbsp;</p>
+				<p align="left" style="margin-top: 12px; margin-bottom: 12px; line-height:150%">&nbsp;</p>
+				<p style="line-height: 150%; margin-top: 0; margin-bottom: 0">
+			</div></tr>
+	</table>
+  
+  </div>
+  
+  <table border="0" align="center" cellpadding="2" cellspacing="2" width="1357" style="border-width: 0px">
+    <tr> 
+      <td height="28" bordercolor="0" bgcolor="#CBD8CF" width="181" style="border-style: none; border-width: medium" align="center"> 
+        <div id="civil2" style="width: 171px; height: 43px"> 
+          <p align="left" style="margin-top: 0; margin-bottom: 0">
+			<font face="Times New Roman"><span class="view"><a href="http://www.iitg.ac.in/civil/"style="color:#228B22;">
+			<font color="#336600"><span style="font-weight: 400">Civil Home</span></font></a></span></font><font color="#336600" face="Times New Roman"><span class="view">|</span></font><font face="Times New Roman"><span class="view"><font color="#336600">&nbsp;  
+			</font>
+              <a href="http://www.iitg.ac.in/"style="color:#228B22;"><font color="#336600">
+			<span style="font-weight: 400">IITG Home</span></font></a></span></font><p align="left" style="margin-top: 0; margin-bottom: 0">
+			<font face="Times New Roman">
+			<span class="view"> <a href="http://www.iitg.ac.in/civil/contact.html"style="color:#228B22;">
+			<font color="#336600"><span style="font-weight: 400">Contact Us</span></font></a></span></font></div>
+      </td>
+      
+     
+      
+      <td height="28" bordercolor="0" bgcolor="#CBD8CF" align="center" style="border-style: none; border-width: medium" width="1162"> 
+          <p align="left"><span class="view">
+			
+			<font face="Times New Roman" color="#006600">Divisions: </font><font face="Times New Roman">
+			<font color="#006600">
+			| 
+			
+			
+			</font><i><a href="http://www.iitg.ac.in/civil//Earth_Sciences_Lab/index.html"style="color:#228B22;">
+			<font color="#006600"><span style="font-weight: 400">Earth System</span></font></a><font color="#006600"> 
+			|
+			</font><a href="https://www.iitg.ac.in/civil/Environmental%20Laboratory/index.htm"style="color:#228B22;">
+			<font color="#006600"><span style="font-weight: 400">Environmental</span></font></a><font color="#006600"> 
+			| 
+			</font><a href="http://www.iitg.ac.in/civil/geotech_lab.html"style="color:#228B22;">
+			<font color="#006600"><span style="font-weight: 400">Geotechnical</span></font></a><font color="#006600"> 
+			 
+			  | </font><a href="http://www.iitg.ac.in/civil/infrastructure_lab.html"style="color:#228B22;">
+			<font color="#006600"><span style="font-weight: 400">Infrastructure</span></font></a><font color="#006600"> 
+
+			 
+			 | </font><a href="https://www.iitg.ac.in/civil/Structural%20Labaratory/index.htm"style="color:#228B22;">
+			<font color="#006600"><span style="font-weight: 400">Structural</span></font></a><font color="#006600"> 
+			| </font>
+			<a href="http://www.iitg.ac.in/civil/transport_lab.html"style="color:#228B22;">
+			<font color="#006600"><span style="font-weight: 400">Transportation</span></font></a><font color="#006600"> 
+			| 
+			
+			</font><a href="https://www.iitg.ac.in/civil/Water%20Resources%20Engineering/Water%20Resources%20Engineering/Facilities.html"style="color:#228B22;">
+			<font color="#006600"><span style="font-weight: 400">Water Resources</span></font></a><font color="#006600"> 
+			|</font></i></font></span></p></td>
+    </tr>
+    
+  
+  
+	</table>
+
+		</td>
+    </tr>
+    </table>
+    
+    
+
+
+  
+  
+    	</div>
+    
+    
+
+
+  
+  
+    	</body>
+</head>
+</html>
